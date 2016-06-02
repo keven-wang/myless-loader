@@ -1,0 +1,16 @@
+{
+  "name": "myless-loader",
+  "version": "0.0.1",
+  "author": {
+        "name": "keven-wang",
+        "email": "wang_jian_bo037@126.com"
+  },
+  "main": "index",
+  "readmeFilename": "README.md",   
+  "description": "myless webpack loader",
+  "homepage": "https://github.com/keven-wang/myless-loader",
+  "engines": {"node": ">=0.10.0"},
+  "dependencies": {
+    "myless": ""
+  }
+}
