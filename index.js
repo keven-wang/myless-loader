@@ -47,7 +47,6 @@ module.exports = function(source) {
     
     myless.parse(source, options, function(parse_err, result) {
         if (parse_err) {
-            console.log(parse_err);
             done(parse_err, null);
             return;
         }
@@ -55,7 +54,7 @@ module.exports = function(source) {
         try {
             done(null, result.css);
         } catch (e) {
-            callback(e, null);
+            done(e, null);
         }
     });
 };
